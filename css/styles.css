@@ -419,11 +419,8 @@ img {
   padding-right: 332px;
 }
 
-.navhtml,
-.lmenu,
-.address {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.menulink {
+  display: inline-block;
 }
 .icon-container {
   display: flex;
@@ -463,9 +460,7 @@ img {
 }
 
 .sm-link:hover,
-.sm-link:focus,
-.sm-link:visited,
-.sm-link:active {
+.sm-link:focus {
   background-color: #404bbf;
 }
 .footer-link {
